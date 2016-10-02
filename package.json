@@ -1,5 +1,16 @@
 {
   "author": "Maciej Małecki <maciej.malecki@notimplemented.org>",
+  "contributors": [
+    {
+      "name": "siddharthcse",
+      "email": "siddharth.sachdeva@newgen.co.in"
+    },
+    {
+      "name": "compumike08",
+      "email": "compumike08@users.noreply.github.com"
+    }
+  ],
+  "license": "MIT",
   "name": "travis-ci-node.js-example",
   "description": "An example node.js project that uses vows and travis-ci.org for continuous integration",
   "version": "0.0.0",
@@ -7,7 +18,7 @@
   "main": "./lib/serious-calculations",
   "repository": {
     "type": "git",
-    "url": "git://github.com/travis-ci/travis-ci-node.js-example.git"
+    "url": "https://github.com/compumike08/node.js.git"
   },
   "scripts": {
     "test": "vows --spec"
@@ -18,6 +29,7 @@
   "dependencies": {},
   "devDependencies": {
     "vows": "0.6.x"
-  }
+  },
+  "private": true
 }
 
